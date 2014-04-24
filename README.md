@@ -11,7 +11,7 @@ Use it just like `accounts-ui` package by putting the following in your navbar:
 
     {{> newtAccountButtons }}
   
-If you need to make a NEWT api call, do the follwing:
+If you need to make a NEWT api call, do the following:
   
     var response = newt_call(newt_endpoint_url, newt_session_id);
   
