@@ -1,0 +1,16 @@
+<template name="newtAccountButtons">
+	<div class="nav pull-right">
+		<ul class="nav pull-right">
+			{{#if currentUser}}
+				<li>{{> loggedIn }}</li>
+			{{/if}}
+			{{#unless currentUser}}
+				<li>{{> loggedOut }}</li>
+			{{/unless}}
+			{{#if loggingIn}}
+				{{> loggingIn }}
+			{{/if}}
+		</ul>
+	</div>	
+</template>
+
