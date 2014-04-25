@@ -3,8 +3,9 @@
   "description": "Newt based authentication that works with Meteor accounts login",
   "homepage": "https://github.com/NERSC/newt-meteor",
   "author": "Ulugbek Baymuradov <ulugbekbk@gmail.com>",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "git": "https://github.com/NERSC/newt-meteor.git",
   "packages": {
+  	"http"
   }
 }
