@@ -6,6 +6,7 @@ Newt based authentication and that works with Meteor accounts login.
 Add the package to your project with:
 
     mrt add newt
+    meteor add http
   
 Use it just like `accounts-ui` package by putting the following in your navbar:
 
