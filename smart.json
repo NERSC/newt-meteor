@@ -6,6 +6,5 @@
   "version": "0.0.5",
   "git": "https://github.com/NERSC/newt-meteor.git",
   "packages": {
-  	"http"
   }
 }
